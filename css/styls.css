@@ -1,0 +1,36 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+  font-family: "Heebo", sans-serif;
+}
+a {
+  color: #000000;
+}
+/* ..............header............ */
+header {
+  padding-top: 27px;
+}
+
+.conteiner {
+  max-width: 858px;
+  border: 2px solid green;
+  margin: 0px auto;
+}
+.header-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ul-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 33px;
+}
+.li-items {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+.menu-icon {
+  display: none;
+}

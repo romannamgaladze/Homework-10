@@ -1,0 +1,15 @@
+/* .......... header......... */
+
+@media (max-width: 882px) {
+  .header-list {
+    padding: 0px 12px;
+  }
+}
+@media (max-width: 768px) {
+  .nav-list {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+}

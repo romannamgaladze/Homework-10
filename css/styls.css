@@ -1,6 +1,8 @@
 body {
   @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
   font-family: "Heebo", sans-serif;
+
+  color: #21243d;
 }
 a {
   color: #000000;
@@ -8,11 +10,12 @@ a {
 /* ..............header............ */
 header {
   padding-top: 27px;
+  margin-bottom: 140px;
 }
 
 .conteiner {
   max-width: 858px;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   margin: 0px auto;
 }
 .header-list {
@@ -25,12 +28,38 @@ header {
   justify-content: space-between;
   align-items: center;
   column-gap: 33px;
-}
-.li-items {
   font-size: 20px;
   font-weight: 500;
-  color: #000000;
 }
+
 .menu-icon {
   display: none;
+}
+/* ................ main............. */
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+.para-main {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 100%;
+}
+.submit-main {
+  width: 208px;
+  height: 47px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 2px;
+  background-color: #ff6464;
+  color: #ffffff;
+  margin-top: 24px;
 }

@@ -71,7 +71,6 @@ h1 {
 /* ............section1 (posts).......... */
 .section1 {
   background-color: #edf7fa;
-  padding-top: 7px;
   padding-bottom: 32px;
   margin-top: 71px;
 }
@@ -118,12 +117,79 @@ h2 {
   font-size: 18px;
   font-weight: 400;
 }
-span {
+.span-line {
   border: 1px solid #000000;
   margin: 0px 24px;
 }
-.para-text {
+.para-text1 {
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
+}
+
+/* ..........section2 (works)......... */
+
+.div-works {
+  min-height: 400px;
+}
+.para-featured-works {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+.div-work1 {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 18px;
+}
+.work-img-1 {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 20px;
+}
+.para-text2 {
+  max-width: 580px;
+  min-height: 50px;
+  margin-top: 20px;
+}
+.nerve-killer {
+  padding: 5px;
+  margin: auto;
+}
+.para-dashboard {
+  /* display: inline-block; */
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #8695a4;
+}
+.span-year {
+  /* display: inline-block; */
+  width: 62px;
+  height: 25px;
+  border: none;
+  background-color: #142850;
+  border-radius: 16px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 26px;
+}
+.long-line {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #e0e0e0;
+  background-color: #e0e0e0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

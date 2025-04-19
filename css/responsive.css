@@ -43,4 +43,18 @@
   .submit-main {
     margin-top: 27px;
   }
+  /* ..........section1........... */
+  .para-view-all {
+    display: none;
+  }
+  .para-resent-posts {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .para-date {
+    font-size: 16px;
+  }
 }

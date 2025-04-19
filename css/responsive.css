@@ -57,4 +57,30 @@
   .para-date {
     font-size: 16px;
   }
+
+  /* .........section2............ */
+  .div-work1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 0px 24px; */
+    max-width: 344px;
+    margin: auto;
+  }
+  .work-img {
+    width: 339px;
+    height: 230px;
+  }
+  .para-featured-works {
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+  }
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
 }
